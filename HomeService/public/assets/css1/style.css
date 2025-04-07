@@ -1,0 +1,85 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ====== BASE ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ====== Body ===== */
+body{
+    background-image: url("../img1/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+
+}
+
+/* ====== Form container ===== */
+.form-container{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
+
+/* ====== First Column ===== */
+.col-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    background:rgba(255 ,255,255,0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 0 30% 20% 0;
+    transition: border-radius .3s;
+}
+
+.image-layer{
+    position: relative;
+}
+.form-image-main{
+    width: 400px;
+}
+.form-image{
+    position: absolute;
+    left: 0;
+    width: 400px;
+}
+/* ====== Form Image Animation ===== */
+
+
+/* ====== Featured Words ===== */
+.featured-words{
+    text-align: center;
+    color: #fff;
+    width: 300px;
+
+}
+.featured-words span{
+    font-weight: 600px;
+    color: #21264D;
+}
+
+/* ====== Second Column ===== */
+
+
+/*  ======= Login Form ========  */
+
+
+/*  ======= Register Form ========  */
+
+
+/* ======== Responsive ======== */
