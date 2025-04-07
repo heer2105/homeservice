@@ -11,7 +11,7 @@ class BookingController extends Controller
     public function booking()
     {
         //
-        $data=Booking::latest()->paginate(4);
+        $data = Booking::where('status', '>=', 1)->latest()->paginate(4);
         return view('booking',compact('data'));
     }
     
