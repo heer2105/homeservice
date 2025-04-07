@@ -14,7 +14,7 @@ class VersionController extends Controller
     public function index()
     {
         $data = Version::paginate(5);
-        return view('version.index', compact('data'));
+        return view('Version.index', compact('data'));
     }
 
     public function create()

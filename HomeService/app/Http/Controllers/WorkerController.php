@@ -146,7 +146,7 @@ class WorkerController extends Controller
     {
         //
         $data=Worker::latest()->paginate(4);
-        return view('worker.index',compact('data'));
+        return view('Worker.index',compact('data'));
     }
     public function create()
     {
