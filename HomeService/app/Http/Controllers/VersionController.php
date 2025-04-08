@@ -33,7 +33,7 @@ class VersionController extends Controller
 
     public function edit(Version $version)
     {
-        return view('version.edit', compact('version'));
+        return view('Version.edit', compact('version'));
     }
 
     public function update(Request $request, Version $version)
